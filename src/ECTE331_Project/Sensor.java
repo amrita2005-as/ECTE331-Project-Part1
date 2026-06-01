@@ -12,7 +12,7 @@ public class Sensor {
 		int chance = random.nextInt(100);
 		int sensorValue;
 		if(chance < 15) {
-			LoggerUtility.log(SensorID + "failed!!!");
+			LoggerUtility.log(SensorID + " failed!!!");
 			throw new SensorReadException(SensorID + " failed!!!");
 		}
 		else if(chance < 30) {
