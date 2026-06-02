@@ -24,7 +24,7 @@ public class Sensor {
 		else {
 			sensorValue = random.nextInt(201);
 		}
-		LoggerUtility.log(SensorID + ": " + sensorValue);
+		LoggerUtility.log("Sensor "+ SensorID + ": " + sensorValue);
 		return sensorValue;
 	}
 	public String getSensorID() {

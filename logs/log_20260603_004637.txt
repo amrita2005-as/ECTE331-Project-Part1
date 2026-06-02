@@ -1,0 +1,4 @@
+[2026-06-03T00:46:37.710053601]Sensor A: 181
+[2026-06-03T00:46:37.723695735]Sensor B: 117
+[2026-06-03T00:46:37.731418930]Corrupted Sensor Reading of 251 in Sensor: C
+[2026-06-03T00:46:37.732299160]The number of faults: 0
