@@ -1,0 +1,5 @@
+[2026-06-03T01:10:48.259297718]Corrupted Sensor Reading of 432 in Sensor: A
+[2026-06-03T01:10:48.274726077]Sensor B: 98
+[2026-06-03T01:10:48.275584881]Sensor C: 98
+[2026-06-03T01:10:48.276184863]The number of faults: 0
+[2026-06-03T01:10:48.286332600]Majority voting successful! Sensor B = 98, Sensor C = 98. FINAL ALTITUDE SELECTED: 98m

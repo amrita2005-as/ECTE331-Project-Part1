@@ -1,0 +1,65 @@
+[2026-06-03 22:00:19]Starting the FAULT TOLERANT AUTONOMOUS DRONE NAVIGATION SYSTEM.....
+[2026-06-03 22:00:19]Navigation Cycle: 1
+[2026-06-03 22:00:19]Sensor A: 199
+[2026-06-03 22:00:19]B failed!!!
+[2026-06-03 22:00:19]SENSOR B FAILED!
+[2026-06-03 22:00:19]C failed!!!
+[2026-06-03 22:00:19]SENSOR C FAILED!
+[2026-06-03 22:00:19]The number of faults: 2
+[2026-06-03 22:00:19]All sensor outputs differ, therefore fallback to previous altitude of: 100m
+[2026-06-03 22:00:19]Navigation Cycle: 2
+[2026-06-03 22:00:19]Sensor A: 177
+[2026-06-03 22:00:19]Sensor B: 58
+[2026-06-03 22:00:19]Sensor C: 150
+[2026-06-03 22:00:19]The number of faults: 2
+[2026-06-03 22:00:19]All sensor outputs differ, therefore fallback to previous altitude of: 100m
+[2026-06-03 22:00:19]Navigation Cycle: 3
+[2026-06-03 22:00:19]Sensor A: 29
+[2026-06-03 22:00:19]Sensor B: 182
+[2026-06-03 22:00:19]C failed!!!
+[2026-06-03 22:00:19]SENSOR C FAILED!
+[2026-06-03 22:00:19]The number of faults: 3
+[2026-06-03 22:00:19]All sensor outputs differ, therefore fallback to previous altitude of: 100m
+[2026-06-03 22:00:19]Navigation Cycle: 4
+[2026-06-03 22:00:19]Sensor A: 9
+[2026-06-03 22:00:19]Sensor B: 87
+[2026-06-03 22:00:19]Sensor C: 195
+[2026-06-03 22:00:19]The number of faults: 3
+[2026-06-03 22:00:19]All sensor outputs differ, therefore fallback to previous altitude of: 100m
+[2026-06-03 22:00:19]Navigation Cycle: 5
+[2026-06-03 22:00:19]Sensor A: 113
+[2026-06-03 22:00:19]Corrupted Sensor Reading of 479 in Sensor: B
+[2026-06-03 22:00:19]Sensor C: 61
+[2026-06-03 22:00:19]The number of faults: 3
+[2026-06-03 22:00:19]All sensor outputs differ, therefore fallback to previous altitude of: 100m
+[2026-06-03 22:00:19]Navigation Cycle: 6
+[2026-06-03 22:00:19]Sensor A: 47
+[2026-06-03 22:00:19]Sensor B: 82
+[2026-06-03 22:00:19]Sensor C: 201
+[2026-06-03 22:00:19]The number of faults: 3
+[2026-06-03 22:00:19]All sensor outputs differ, therefore fallback to previous altitude of: 100m
+[2026-06-03 22:00:19]Navigation Cycle: 7
+[2026-06-03 22:00:19]Sensor A: 53
+[2026-06-03 22:00:19]Sensor B: 125
+[2026-06-03 22:00:19]Sensor C: 68
+[2026-06-03 22:00:19]The number of faults: 3
+[2026-06-03 22:00:19]All sensor outputs differ, therefore fallback to previous altitude of: 100m
+[2026-06-03 22:00:19]Navigation Cycle: 8
+[2026-06-03 22:00:19]Sensor A: 28
+[2026-06-03 22:00:19]Sensor B: 133
+[2026-06-03 22:00:19]Corrupted Sensor Reading of 295 in Sensor: C
+[2026-06-03 22:00:19]The number of faults: 3
+[2026-06-03 22:00:19]All sensor outputs differ, therefore fallback to previous altitude of: 100m
+[2026-06-03 22:00:19]Navigation Cycle: 9
+[2026-06-03 22:00:19]A failed!!!
+[2026-06-03 22:00:19]SENSOR A FAILED!
+[2026-06-03 22:00:19]Corrupted Sensor Reading of 421 in Sensor: B
+[2026-06-03 22:00:19]Corrupted Sensor Reading of 275 in Sensor: C
+[2026-06-03 22:00:19]The number of faults: 4
+[2026-06-03 22:00:19]All sensor outputs differ, therefore fallback to previous altitude of: 100m
+[2026-06-03 22:00:19]Navigation Cycle: 10
+[2026-06-03 22:00:19]Sensor A: 162
+[2026-06-03 22:00:19]Sensor B: 183
+[2026-06-03 22:00:19]Sensor C: 100
+[2026-06-03 22:00:19]The number of faults: 4
+[2026-06-03 22:00:19]All sensor outputs differ, therefore fallback to previous altitude of: 100m

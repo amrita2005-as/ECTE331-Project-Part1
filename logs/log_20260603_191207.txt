@@ -1,0 +1,5 @@
+[2026-06-03 19:12:07]Sensor A: 178
+[2026-06-03 19:12:07]Sensor B: 114
+[2026-06-03 19:12:07]Sensor C: 169
+[2026-06-03 19:12:07]The number of faults: 0
+[2026-06-03 19:12:07]All sensor outputs differ, therefore fallback to previous altitude of: 100m

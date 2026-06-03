@@ -1,0 +1,4 @@
+[2026-06-03T01:07:29.382363539]Corrupted Sensor Reading of 487 in Sensor: A
+[2026-06-03T01:07:29.396710926]Sensor B failed!!!
+[2026-06-03T01:07:29.397415465]Sensor C failed!!!
+[2026-06-03T01:07:29.398194944]The number of faults: 2

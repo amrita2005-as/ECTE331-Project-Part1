@@ -6,11 +6,12 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 public class LoggerUtility {
+	private static final DateTimeFormatter FORMAT = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
 	private static final String fileName = "logs/log_" + LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss"))+ ".txt";
 	public static void log(String message) {
 		try {
 			FileWriter writer = new FileWriter(fileName,true);
-			writer.write("[" + LocalDateTime.now() + "]" + message + "\n");
+			writer.write("[" + LocalDateTime.now().format(FORMAT) + "]" + message + "\n");
 			writer.close();
 		}
 		catch(IOException e) {

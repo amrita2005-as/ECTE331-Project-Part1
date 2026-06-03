@@ -1,0 +1,5 @@
+[2026-06-03T01:49:38.233686347]Sensor A failed!!!
+[2026-06-03T01:49:38.254231579]Corrupted Sensor Reading of 323 in Sensor: B
+[2026-06-03T01:49:38.262279153]Sensor C failed!!!
+[2026-06-03T01:49:38.264063738]The number of faults: 2
+[2026-06-03T01:49:38.265848926]All sensor outputs differ, therefore fallback to previous altitude of: 100

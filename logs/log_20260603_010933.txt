@@ -1,0 +1,4 @@
+[2026-06-03T01:09:33.088487903]Sensor A: 3
+[2026-06-03T01:09:33.102602023]Corrupted Sensor Reading of 301 in Sensor: B
+[2026-06-03T01:09:33.103265001]Sensor C failed!!!
+[2026-06-03T01:09:33.104179861]The number of faults: 1
