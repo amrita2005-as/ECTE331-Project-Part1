@@ -1,7 +1,7 @@
 package ECTE331_Project;
 
 public class DroneSystemDriver {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws SystemReliabilityException {
 		Sensor sensorA = new Sensor("A");
 		Sensor sensorB = new Sensor("B");
 		Sensor sensorC = new Sensor("C");
@@ -102,6 +102,18 @@ public class DroneSystemDriver {
 				reliabilityFailure = true;
 				System.out.println("Reliability Failure: No majority found.");
 				LoggerUtility.log("Reliability Failure: No majority found.");
+			}
+			if(reliabilityFailure) {
+				consecutiveFailures++;
+				System.out.printf("Consecutive Reliability Failures: "+ consecutiveFailures);
+				LoggerUtility.log("Consecutive Reliability Failures: "+ consecutiveFailures);
+			}
+			else {
+				consecutiveFailures = 0;
+				LoggerUtility.log("Reliability Status: HEALTHY!");
+			}
+			if(consecutiveFailures >= 2) {
+				throw new SystemReliabilityException("SAFE MODE ACTIVATED!!");
 			}
 			if(timeStep>=10) {
 				run = false;
