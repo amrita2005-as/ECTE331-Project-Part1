@@ -1,0 +1,75 @@
+[2026-06-16 02:38:21]Starting the FAULT TOLERANT AUTONOMOUS DRONE NAVIGATION SYSTEM.....
+[2026-06-16 02:38:21]Navigation Cycle: 1
+[2026-06-16 02:38:21]Sensor A: 62
+[2026-06-16 02:38:21]B failed!!!
+[2026-06-16 02:38:21]SENSOR B FAILED!
+[2026-06-16 02:38:21]Sensor C: 70
+[2026-06-16 02:38:21]The number of faults: 1
+[2026-06-16 02:38:21]All sensor outputs differ, therefore fallback to previous altitude of: 100m
+[2026-06-16 02:38:21]Reliability Failure: No majority found.
+[2026-06-16 02:38:21]Navigation Cycle: 2
+[2026-06-16 02:38:21]Sensor A: 99
+[2026-06-16 02:38:21]Sensor B: 36
+[2026-06-16 02:38:21]Sensor C: 7
+[2026-06-16 02:38:21]The number of faults: 0
+[2026-06-16 02:38:21]All sensor outputs differ, therefore fallback to previous altitude of: 100m
+[2026-06-16 02:38:21]Reliability Failure: No majority found.
+[2026-06-16 02:38:21]Navigation Cycle: 3
+[2026-06-16 02:38:21]Sensor A: 153
+[2026-06-16 02:38:21]Sensor B: 184
+[2026-06-16 02:38:21]Sensor C: 84
+[2026-06-16 02:38:21]The number of faults: 0
+[2026-06-16 02:38:21]All sensor outputs differ, therefore fallback to previous altitude of: 100m
+[2026-06-16 02:38:21]Reliability Failure: No majority found.
+[2026-06-16 02:38:21]Navigation Cycle: 4
+[2026-06-16 02:38:21]A failed!!!
+[2026-06-16 02:38:21]SENSOR A FAILED!
+[2026-06-16 02:38:21]Sensor B: 9
+[2026-06-16 02:38:21]Sensor C: 130
+[2026-06-16 02:38:21]The number of faults: 1
+[2026-06-16 02:38:21]All sensor outputs differ, therefore fallback to previous altitude of: 100m
+[2026-06-16 02:38:21]Reliability Failure: No majority found.
+[2026-06-16 02:38:21]Navigation Cycle: 5
+[2026-06-16 02:38:21]Corrupted Sensor Reading of 233 in Sensor: A
+[2026-06-16 02:38:21]Sensor B: 13
+[2026-06-16 02:38:21]Sensor C: 86
+[2026-06-16 02:38:21]The number of faults: 0
+[2026-06-16 02:38:21]All sensor outputs differ, therefore fallback to previous altitude of: 100m
+[2026-06-16 02:38:21]Reliability Failure: No majority found.
+[2026-06-16 02:38:21]Navigation Cycle: 6
+[2026-06-16 02:38:21]Sensor A: 104
+[2026-06-16 02:38:21]Corrupted Sensor Reading of 486 in Sensor: B
+[2026-06-16 02:38:21]Corrupted Sensor Reading of 370 in Sensor: C
+[2026-06-16 02:38:21]The number of faults: 0
+[2026-06-16 02:38:21]All sensor outputs differ, therefore fallback to previous altitude of: 100m
+[2026-06-16 02:38:21]Reliability Failure: Less than 2 valid sensors!!!
+[2026-06-16 02:38:21]Navigation Cycle: 7
+[2026-06-16 02:38:21]A failed!!!
+[2026-06-16 02:38:21]SENSOR A FAILED!
+[2026-06-16 02:38:21]Sensor B: 145
+[2026-06-16 02:38:21]Sensor C: 172
+[2026-06-16 02:38:21]The number of faults: 1
+[2026-06-16 02:38:21]All sensor outputs differ, therefore fallback to previous altitude of: 100m
+[2026-06-16 02:38:21]Reliability Failure: No majority found.
+[2026-06-16 02:38:21]Navigation Cycle: 8
+[2026-06-16 02:38:21]Sensor A: 187
+[2026-06-16 02:38:21]B failed!!!
+[2026-06-16 02:38:21]SENSOR B FAILED!
+[2026-06-16 02:38:21]Corrupted Sensor Reading of 349 in Sensor: C
+[2026-06-16 02:38:21]The number of faults: 1
+[2026-06-16 02:38:21]All sensor outputs differ, therefore fallback to previous altitude of: 100m
+[2026-06-16 02:38:21]Reliability Failure: Less than 2 valid sensors!!!
+[2026-06-16 02:38:21]Navigation Cycle: 9
+[2026-06-16 02:38:21]Sensor A: 15
+[2026-06-16 02:38:21]Sensor B: 109
+[2026-06-16 02:38:21]Sensor C: 24
+[2026-06-16 02:38:21]The number of faults: 0
+[2026-06-16 02:38:21]All sensor outputs differ, therefore fallback to previous altitude of: 100m
+[2026-06-16 02:38:21]Reliability Failure: No majority found.
+[2026-06-16 02:38:21]Navigation Cycle: 10
+[2026-06-16 02:38:21]Sensor A: 98
+[2026-06-16 02:38:21]Sensor B: 9
+[2026-06-16 02:38:21]Sensor C: 169
+[2026-06-16 02:38:21]The number of faults: 0
+[2026-06-16 02:38:21]All sensor outputs differ, therefore fallback to previous altitude of: 100m
+[2026-06-16 02:38:21]Reliability Failure: No majority found.

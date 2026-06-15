@@ -6,13 +6,14 @@ public class DroneSystemDriver {
 		Sensor sensorB = new Sensor("B");
 		Sensor sensorC = new Sensor("C");
 		int pastAltitude = 100 ; //fallback value for now
-		int failureCount = 0;
 		boolean run = true; 
 		int a = -2, b = -2, c = -2; //invalid initial value given
 		int timeStep = 1;
+		int consecutiveFailures = 0;
 		System.out.printf("Starting the FAULT TOLERANT AUTONOMOUS DRONE NAVIGATION SYSTEM.....\n");
 		LoggerUtility.log("Starting the FAULT TOLERANT AUTONOMOUS DRONE NAVIGATION SYSTEM.....");
 		while (run) {
+			int failureCount = 0;
 			boolean failureA = false;
 			boolean failureB = false;
 			boolean failureC = false;
@@ -80,6 +81,27 @@ public class DroneSystemDriver {
 				presentAltitude = pastAltitude;
 				System.out.printf("All sensor outputs differ, therefore fallback to previous altitude of: " + presentAltitude + "m \n");
 				LoggerUtility.log("All sensor outputs differ, therefore fallback to previous altitude of: " + presentAltitude + "m");
+			}
+			int validSensorCount = 0;
+			boolean reliabilityFailure = false;
+			if(validValueA) {
+				validSensorCount++;
+			}
+			if(validValueB) {
+				validSensorCount++;
+			}
+			if(validValueC) {
+				validSensorCount++;
+			}
+			if(validSensorCount < 2) {
+				reliabilityFailure  = true;
+				System.out.println("Reliability Failure: Less than 2 valid sensors!!!");
+				LoggerUtility.log("Reliability Failure: Less than 2 valid sensors!!!");
+			}
+			else if(!majority) {
+				reliabilityFailure = true;
+				System.out.println("Reliability Failure: No majority found.");
+				LoggerUtility.log("Reliability Failure: No majority found.");
 			}
 			if(timeStep>=10) {
 				run = false;
