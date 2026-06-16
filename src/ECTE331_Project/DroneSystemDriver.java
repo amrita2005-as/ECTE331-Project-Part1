@@ -1,7 +1,7 @@
 package ECTE331_Project;
 
 public class DroneSystemDriver {
-	public static void main(String[] args) throws SystemReliabilityException {
+	public static void main(String[] args) {
 		Sensor sensorA = new Sensor("A");
 		Sensor sensorB = new Sensor("B");
 		Sensor sensorC = new Sensor("C");
@@ -12,6 +12,7 @@ public class DroneSystemDriver {
 		int consecutiveFailures = 0;
 		System.out.printf("Starting the FAULT TOLERANT AUTONOMOUS DRONE NAVIGATION SYSTEM.....\n");
 		LoggerUtility.log("Starting the FAULT TOLERANT AUTONOMOUS DRONE NAVIGATION SYSTEM.....");
+		try {
 		while (run) {
 			int failureCount = 0;
 			boolean failureA = false;
@@ -105,7 +106,7 @@ public class DroneSystemDriver {
 			}
 			if(reliabilityFailure) {
 				consecutiveFailures++;
-				System.out.printf("Consecutive Reliability Failures: "+ consecutiveFailures);
+				System.out.printf("Consecutive Reliability Failures: "+ consecutiveFailures + "\n");
 				LoggerUtility.log("Consecutive Reliability Failures: "+ consecutiveFailures);
 			}
 			else {
@@ -113,7 +114,7 @@ public class DroneSystemDriver {
 				LoggerUtility.log("Reliability Status: HEALTHY!");
 			}
 			if(consecutiveFailures >= 2) {
-				throw new SystemReliabilityException("SAFE MODE ACTIVATED!!");
+				throw new SystemReliabilityException("Navigating into SAFE MODE!");
 			}
 			if(timeStep>=10) {
 				run = false;
@@ -121,5 +122,15 @@ public class DroneSystemDriver {
 			}
 			timeStep++;
 		}
+		}catch (SystemReliabilityException e) {
+			System.out.println("\n-----SAFE MODE ACTIVATED!-----");
+			System.out.println(e.getMessage());
+			LoggerUtility.log("-----SAFE MODE ACTIVATED!-----");
+			LoggerUtility.log(e.getMessage());
+			
+		}
+		System.out.println("SYSTEM SHUTDOWN COMPLETE.");
+		LoggerUtility.log("SYSTEM SHUTDOWN COMPLETE.");
+		}
 	}
-}
+

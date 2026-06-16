@@ -1,0 +1,43 @@
+[2026-06-16 04:10:47]Starting the FAULT TOLERANT AUTONOMOUS DRONE NAVIGATION SYSTEM.....
+[2026-06-16 04:10:47]Navigation Cycle: 1
+[2026-06-16 04:10:47]Sensor A: 132
+[2026-06-16 04:10:47]Sensor B: 72
+[2026-06-16 04:10:47]C failed!!!
+[2026-06-16 04:10:47]SENSOR C FAILED!
+[2026-06-16 04:10:47]The number of faults: 1
+[2026-06-16 04:10:47]All sensor outputs differ, therefore fallback to previous altitude of: 100m
+[2026-06-16 04:10:47]Reliability Failure: No majority found.
+[2026-06-16 04:10:47]Consecutive Reliability Failures: 1
+[2026-06-16 04:10:47]Navigation Cycle: 2
+[2026-06-16 04:10:47]Sensor A: 12
+[2026-06-16 04:10:47]Sensor B: 170
+[2026-06-16 04:10:47]Sensor C: 19
+[2026-06-16 04:10:47]The number of faults: 0
+[2026-06-16 04:10:47]All sensor outputs differ, therefore fallback to previous altitude of: 100m
+[2026-06-16 04:10:47]Reliability Failure: No majority found.
+[2026-06-16 04:10:47]Consecutive Reliability Failures: 2
+[2026-06-16 04:10:47]-----SAFE MODE ACTIVATED!-----
+[2026-06-16 04:10:47]Navigating into SAFE MODE!
+[2026-06-16 04:10:47]SYSTEM SHUTDOWN COMPLETE.
+[2026-06-16 04:10:47]Starting the FAULT TOLERANT AUTONOMOUS DRONE NAVIGATION SYSTEM.....
+[2026-06-16 04:10:47]Navigation Cycle: 1
+[2026-06-16 04:10:47]A failed!!!
+[2026-06-16 04:10:47]SENSOR A FAILED!
+[2026-06-16 04:10:47]B failed!!!
+[2026-06-16 04:10:47]SENSOR B FAILED!
+[2026-06-16 04:10:47]Sensor C: 163
+[2026-06-16 04:10:47]The number of faults: 2
+[2026-06-16 04:10:47]All sensor outputs differ, therefore fallback to previous altitude of: 100m
+[2026-06-16 04:10:47]Reliability Failure: Less than 2 valid sensors!!!
+[2026-06-16 04:10:47]Consecutive Reliability Failures: 1
+[2026-06-16 04:10:47]Navigation Cycle: 2
+[2026-06-16 04:10:47]Sensor A: 186
+[2026-06-16 04:10:47]Corrupted Sensor Reading of 228 in Sensor: B
+[2026-06-16 04:10:47]Sensor C: 185
+[2026-06-16 04:10:47]The number of faults: 0
+[2026-06-16 04:10:47]All sensor outputs differ, therefore fallback to previous altitude of: 100m
+[2026-06-16 04:10:47]Reliability Failure: No majority found.
+[2026-06-16 04:10:47]Consecutive Reliability Failures: 2
+[2026-06-16 04:10:48]-----SAFE MODE ACTIVATED!-----
+[2026-06-16 04:10:48]Navigating into SAFE MODE!
+[2026-06-16 04:10:48]SYSTEM SHUTDOWN COMPLETE.
