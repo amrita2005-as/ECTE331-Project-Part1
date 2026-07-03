@@ -1,0 +1,21 @@
+[2026-06-18 00:39:52]Starting the FAULT TOLERANT AUTONOMOUS DRONE NAVIGATION SYSTEM.....
+[2026-06-18 00:39:52]Navigation Cycle: 1
+[2026-06-18 00:39:52]Sensor B: 92
+[2026-06-18 00:39:52]Sensor C: 104
+[2026-06-18 00:39:52]The number of faults: 0
+[2026-06-18 00:39:52]OUTLIER detected: Sensor A value = 486
+
+[2026-06-18 00:39:52]All sensor outputs differ, therefore fallback to previous altitude of: 100m
+[2026-06-18 00:39:52]Reliability Failure: No majority found.
+[2026-06-18 00:39:52]Consecutive Reliability Failures: 1
+[2026-06-18 00:39:52]Navigation Cycle: 2
+[2026-06-18 00:39:52]Sensor B: 40
+[2026-06-18 00:39:52]Sensor C: 30
+[2026-06-18 00:39:52]The number of faults: 0
+[2026-06-18 00:39:52]OUTLIER detected: Sensor A value = 334
+
+[2026-06-18 00:39:52]All sensor outputs differ, therefore fallback to previous altitude of: 100m
+[2026-06-18 00:39:52]Reliability Failure: No majority found.
+[2026-06-18 00:39:52]Consecutive Reliability Failures: 2
+[2026-06-18 00:39:52]-----SAFE MODE ACTIVATED!-----
+[2026-06-18 00:39:52]Navigating into SAFE MODE!
