@@ -1,0 +1,43 @@
+[2026-07-04 00:56:41]Starting the FAULT TOLERANT AUTONOMOUS DRONE NAVIGATION SYSTEM.....
+[2026-07-04 00:56:41]Navigation Cycle: 1
+[2026-07-04 00:56:41]Sensor A: 2
+[2026-07-04 00:56:41]Sensor C: 128
+[2026-07-04 00:56:41]The number of faults: 0
+[2026-07-04 00:56:41]OUTLIER detected: Sensor B value = 326
+
+[2026-07-04 00:56:41]All sensor outputs differ, therefore fallback to previous altitude of: 100m
+[2026-07-04 00:56:41]Reliability Failure: No majority found.
+[2026-07-04 00:56:41]Consecutive Reliability Failures: 1
+[2026-07-04 00:56:41]Navigation Cycle: 2
+[2026-07-04 00:56:41]Sensor A: 132
+[2026-07-04 00:56:41]Sensor B: 44
+[2026-07-04 00:56:41]The number of faults: 0
+[2026-07-04 00:56:41]OUTLIER detected: Sensor C value = 339
+
+[2026-07-04 00:56:41]All sensor outputs differ, therefore fallback to previous altitude of: 100m
+[2026-07-04 00:56:41]Reliability Failure: No majority found.
+[2026-07-04 00:56:41]Consecutive Reliability Failures: 2
+[2026-07-04 00:56:41]-----SAFE MODE ACTIVATED!-----
+[2026-07-04 00:56:41]Navigating into SAFE MODE!
+[2026-07-04 00:56:41]SYSTEM SHUTDOWN COMPLETE.
+[2026-07-04 00:56:41]Starting the FAULT TOLERANT AUTONOMOUS DRONE NAVIGATION SYSTEM.....
+[2026-07-04 00:56:41]Navigation Cycle: 1
+[2026-07-04 00:56:41]Sensor A: 3
+[2026-07-04 00:56:41]Sensor C: 79
+[2026-07-04 00:56:41]The number of faults: 0
+[2026-07-04 00:56:41]OUTLIER detected: Sensor B value = 252
+
+[2026-07-04 00:56:41]All sensor outputs differ, therefore fallback to previous altitude of: 100m
+[2026-07-04 00:56:41]Reliability Failure: No majority found.
+[2026-07-04 00:56:41]Consecutive Reliability Failures: 1
+[2026-07-04 00:56:41]Navigation Cycle: 2
+[2026-07-04 00:56:41]Sensor A: 56
+[2026-07-04 00:56:41]Sensor B: 120
+[2026-07-04 00:56:41]Sensor C: 133
+[2026-07-04 00:56:41]The number of faults: 0
+[2026-07-04 00:56:41]All sensor outputs differ, therefore fallback to previous altitude of: 100m
+[2026-07-04 00:56:41]Reliability Failure: No majority found.
+[2026-07-04 00:56:41]Consecutive Reliability Failures: 2
+[2026-07-04 00:56:41]-----SAFE MODE ACTIVATED!-----
+[2026-07-04 00:56:41]Navigating into SAFE MODE!
+[2026-07-04 00:56:41]SYSTEM SHUTDOWN COMPLETE.

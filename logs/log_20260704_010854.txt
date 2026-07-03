@@ -1,0 +1,35 @@
+[2026-07-04 01:08:54]Starting the FAULT TOLERANT AUTONOMOUS DRONE NAVIGATION SYSTEM.....
+[2026-07-04 01:08:54]Navigation Cycle: 1
+[2026-07-04 01:08:54]Sensor A: 29
+[2026-07-04 01:08:54]Sensor B: 25
+[2026-07-04 01:08:54]Sensor C: 26
+[2026-07-04 01:08:54]The number of faults: 0
+[2026-07-04 01:08:54]All sensor outputs differ, therefore fallback to previous altitude of: 100m
+[2026-07-04 01:08:54]Reliability Failure: No majority found.
+[2026-07-04 01:08:54]Consecutive Reliability Failures: 1
+[2026-07-04 01:08:54]Navigation Cycle: 2
+[2026-07-04 01:08:54]Sensor A: 17
+[2026-07-04 01:08:54]Sensor B: 13
+[2026-07-04 01:08:54]Sensor C: 17
+[2026-07-04 01:08:54]The number of faults: 0
+[2026-07-04 01:08:54]Majority voting successful! Sensor A = 17, Sensor C = 17. | FINAL ALTITUDE SELECTED: 17m
+[2026-07-04 01:08:54]Reliability Status: HEALTHY!
+[2026-07-04 01:08:54]Navigation Cycle: 3
+[2026-07-04 01:08:54]Sensor A: 0
+[2026-07-04 01:08:54]Sensor B: 20
+[2026-07-04 01:08:54]Sensor C: 8
+[2026-07-04 01:08:54]The number of faults: 0
+[2026-07-04 01:08:54]All sensor outputs differ, therefore fallback to previous altitude of: 17m
+[2026-07-04 01:08:54]Reliability Failure: No majority found.
+[2026-07-04 01:08:54]Consecutive Reliability Failures: 1
+[2026-07-04 01:08:54]Navigation Cycle: 4
+[2026-07-04 01:08:54]Sensor A: 8
+[2026-07-04 01:08:54]Sensor B: 22
+[2026-07-04 01:08:54]Sensor C: 14
+[2026-07-04 01:08:54]The number of faults: 0
+[2026-07-04 01:08:54]All sensor outputs differ, therefore fallback to previous altitude of: 17m
+[2026-07-04 01:08:54]Reliability Failure: No majority found.
+[2026-07-04 01:08:54]Consecutive Reliability Failures: 2
+[2026-07-04 01:08:54]-----SAFE MODE ACTIVATED!-----
+[2026-07-04 01:08:54]Navigating into SAFE MODE!
+[2026-07-04 01:08:54]SYSTEM SHUTDOWN COMPLETE.

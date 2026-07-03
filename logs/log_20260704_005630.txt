@@ -1,0 +1,45 @@
+[2026-07-04 00:56:30]Starting the FAULT TOLERANT AUTONOMOUS DRONE NAVIGATION SYSTEM.....
+[2026-07-04 00:56:30]Navigation Cycle: 1
+[2026-07-04 00:56:30]Sensor A: 27
+[2026-07-04 00:56:30]Sensor B: 149
+[2026-07-04 00:56:30]Sensor C: 18
+[2026-07-04 00:56:30]The number of faults: 0
+[2026-07-04 00:56:30]All sensor outputs differ, therefore fallback to previous altitude of: 100m
+[2026-07-04 00:56:30]Reliability Failure: No majority found.
+[2026-07-04 00:56:30]Consecutive Reliability Failures: 1
+[2026-07-04 00:56:30]Navigation Cycle: 2
+[2026-07-04 00:56:30]Sensor A: 21
+[2026-07-04 00:56:30]The number of faults: 0
+[2026-07-04 00:56:30]OUTLIER detected: Sensor B value = 415
+
+[2026-07-04 00:56:30]OUTLIER detected: Sensor C value = 285
+
+[2026-07-04 00:56:30]All sensor outputs differ, therefore fallback to previous altitude of: 100m
+[2026-07-04 00:56:30]Reliability Failure: Less than 2 valid sensors!!!
+[2026-07-04 00:56:30]Consecutive Reliability Failures: 2
+[2026-07-04 00:56:30]-----SAFE MODE ACTIVATED!-----
+[2026-07-04 00:56:30]Navigating into SAFE MODE!
+[2026-07-04 00:56:30]SYSTEM SHUTDOWN COMPLETE.
+[2026-07-04 00:56:30]Starting the FAULT TOLERANT AUTONOMOUS DRONE NAVIGATION SYSTEM.....
+[2026-07-04 00:56:30]Navigation Cycle: 1
+[2026-07-04 00:56:30]Sensor A: 143
+[2026-07-04 00:56:30]Sensor B: 183
+[2026-07-04 00:56:30]C failed!!!
+[2026-07-04 00:56:30]SENSOR C FAILED!
+[2026-07-04 00:56:30]The number of faults: 1
+[2026-07-04 00:56:30]All sensor outputs differ, therefore fallback to previous altitude of: 100m
+[2026-07-04 00:56:30]Reliability Failure: No majority found.
+[2026-07-04 00:56:30]Consecutive Reliability Failures: 1
+[2026-07-04 00:56:30]Navigation Cycle: 2
+[2026-07-04 00:56:30]A failed!!!
+[2026-07-04 00:56:30]SENSOR A FAILED!
+[2026-07-04 00:56:30]Sensor C: 116
+[2026-07-04 00:56:30]The number of faults: 1
+[2026-07-04 00:56:30]OUTLIER detected: Sensor B value = 354
+
+[2026-07-04 00:56:30]All sensor outputs differ, therefore fallback to previous altitude of: 100m
+[2026-07-04 00:56:30]Reliability Failure: Less than 2 valid sensors!!!
+[2026-07-04 00:56:30]Consecutive Reliability Failures: 2
+[2026-07-04 00:56:30]-----SAFE MODE ACTIVATED!-----
+[2026-07-04 00:56:30]Navigating into SAFE MODE!
+[2026-07-04 00:56:30]SYSTEM SHUTDOWN COMPLETE.
